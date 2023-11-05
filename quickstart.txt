@@ -1,0 +1,13 @@
+DO 😊
+* upload sample.txt and your solution in your named folder 
+* make a separate folder for each day named `day XX`
+* any compiled bytecode and other ignored files to be added to .gitignore
+* any helper functions and header files can be added to root folder if needed
+* have fun 🎄
+
+DON'T 😡
+* delete other people's code 
+* delete your .gitkeep file 
+* be dehydrated
+
+(Uploading code is called "adding", "committing" and "pushing" code on Github)
