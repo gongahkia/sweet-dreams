@@ -12,7 +12,6 @@ Thumbs.db
 *~
 
 # language specifics
-
 # python
 __pycache__
 .mypy_cache
