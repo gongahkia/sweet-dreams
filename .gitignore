@@ -1,4 +1,34 @@
 # idk what other languages yall will use but pls add accordingly and play nice ty <3
 
+# editors
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# os desktop files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# language specifics
+
+# python
 __pycache__
 .mypy_cache
+
+# js ts 
+node_modules
+.env
+
+# rust
+target
+Cargo.lock
+
+# c cpp
+*.exe
+*.out
+build
+bin
+Debug
+Release
