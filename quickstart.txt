@@ -10,4 +10,14 @@ DON'T 😡
 * delete your .gitkeep file 
 * be dehydrated
 
+SAMPLE FILE STRUCTURE
+
+└── astin
+└── beth
+└── gong
+    └── day01
+        ├── sample.txt
+        └── main.py
+└── nichole
+
 (Uploading code is called "adding", "committing" and "pushing" code on Github)
