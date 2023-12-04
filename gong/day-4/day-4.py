@@ -21,3 +21,5 @@ def a() -> None:
     return sum(tot)
 
 print(a())
+
+# do part b later 
