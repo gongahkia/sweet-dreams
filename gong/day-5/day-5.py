@@ -1,5 +1,3 @@
-#type:ignore
-
 def small(arr:[str]) -> int:
     return min([int(val) for val in arr])
 
