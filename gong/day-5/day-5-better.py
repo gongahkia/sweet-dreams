@@ -1,3 +1,5 @@
+# thoughts and prayers go out to the one thread who died to run my day-5.py
+
 def a(deets, sd, mapp):
     return min([chunk(mapp, 'seed', 'location', seed) for seed in sd])
 
