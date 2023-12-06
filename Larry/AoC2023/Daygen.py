@@ -54,21 +54,24 @@ def problem_{Day}_1():
 \'\'\'
 dirname = os.path.dirname(__file__)
 
-filename = dirname + "\\AOC\\AOC{Year[1:]}D{Day}{scriptnames[1]}"
+filename = dirname + "\\\\AOC\\\\AOC{Year[1:]}D{Day}{scriptnames[1]}"
 
-test = dirname + "\\AOC{Year[1:]}D{Day}{scriptnames[2]}"
-test2 = dirname + "\\AOC{Year[1:]}D{Day}{scriptnames[3]}"
+test = dirname + "\\\\AOC{Year[1:]}D{Day}{scriptnames[2]}"
+test2 = dirname + "\\\\AOC{Year[1:]}D{Day}{scriptnames[3]}"
 
 def process_data(RD):
     # * dump data for processing here
+    
+    relevant_data = 0
+    
     return relevant_data
 
-def problem6_1(filename):
+def problem{Day}_1(filename):
     with open(filename) as f:
         r = f.read()
     r.strip()
 
-    Rawdata = r.split("\n")
+    Rawdata = r.split("\\n")
     
     # * processing data 
     #! swap out with actual var names
@@ -76,9 +79,11 @@ def problem6_1(filename):
     
     #? Dump solution here
     
+    thing = 0
+    
     return thing
 
-print(problem6_1(test))
+print(problem{Day}_1(test))
 """
 
 #* 4 - create problem 1 script file
@@ -94,21 +99,24 @@ def problem_{Day}_1():
 \'\'\'
 dirname = os.path.dirname(__file__)
 
-filename = dirname + "\\AOC\\AOC{Year[1:]}D{Day}{scriptnames[1]}"
+filename = dirname + "\\\\AOC\\\\AOC{Year[1:]}D{Day}{scriptnames[1]}"
 
-test = dirname + "\\AOC{Year[1:]}D{Day}{scriptnames[2]}"
-test2 = dirname + "\\AOC{Year[1:]}D{Day}{scriptnames[3]}"
+test = dirname + "\\\\AOC{Year[1:]}D{Day}{scriptnames[2]}"
+test2 = dirname + "\\\\AOC{Year[1:]}D{Day}{scriptnames[3]}"
 
 def process_data(RD):
     # * dump data for processing here
+    
+    relevant_data = 0
+        
     return relevant_data
 
-def problem6_2(filename):
+def problem{Day}_2(filename):
     with open(filename) as f:
         r = f.read()
     r.strip()
 
-    Rawdata = r.split("\n")
+    Rawdata = r.split("\\n")
     
     # * processing data 
     #! swap out with actual var names
@@ -116,9 +124,11 @@ def problem6_2(filename):
     
     #? Dump solution here
     
+    thing = 0
+        
     return thing
 
-print(problem6_2(test2))
+print(problem{Day}_2(test2))
 """
 
 #* 4 - create problem 1 script file
