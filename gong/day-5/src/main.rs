@@ -1,3 +1,5 @@
+// oh great crab, please let this compile, thank you in advance <3
+
 use std::io::Read;
 
 fn a(lad: &str) -> u64 {
@@ -73,7 +75,6 @@ fn b(lad: &str) -> u64 {
             std::mem::swap(&mut items, &mut new_items);
         }
 
-        // Merge adjacent ranges, to save time
         items.sort();
         new_items.clear();
         for &i in &items {
