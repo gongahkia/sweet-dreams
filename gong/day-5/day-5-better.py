@@ -50,8 +50,8 @@ def makeMap(deets):
     return (sourceMap, destMap, translation)
 
 def readMap():
-    with open('puzzle5.dat') as f:
-        return f.read().split('\n\n')
+    with open('input') as fhand:
+        return fhand.read().split('\n\n')
 
 deets = readMap()
 sd = [int(x) for x in deets[0].split()[1:]]
