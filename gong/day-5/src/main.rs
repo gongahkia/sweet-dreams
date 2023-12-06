@@ -99,6 +99,6 @@ fn b(lad: &str) -> u64 {
 fn main() {
     let mut input = String::new();
     std::io::stdin().read_to_string(&mut input).unwrap();
-    println!(part_1(&input));
-    println!(part_2(&input));
+    println!("{}", a(&input));
+    println!("{}", b(&input));
 }
