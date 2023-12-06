@@ -1,3 +1,5 @@
+# this has the time complexity of the heat death of the universe, im gonna do this in rust instead 
+
 def small(arr:[str]) -> int:
     return min([int(val) for val in arr])
 
